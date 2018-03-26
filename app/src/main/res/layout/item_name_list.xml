@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="itemZhiBiao"
+            type="com.xuzhiguang.scrollviewnest.SimpleListTextItem" />
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+         >
+
+        <TextView
+            style="@style/fuhe_listview_table_text"
+            android:text="@{itemZhiBiao.title}" />
+
+    </FrameLayout>
+</layout>
